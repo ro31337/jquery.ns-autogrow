@@ -1,3 +1,4 @@
+### About
 
 The only reason I wrote this jQuery plugin is that other plugins suck. They are wide-spread, but outdated and buggy.
 
@@ -12,6 +13,10 @@ Advantages of jquery-ns-textarea-autogrow:
 * Handles scrollbar if any
 * Supports tags, quotes, ampersands
 
-Plans:
+### Demo
+
+[Click here](http://htmlpreview.github.io/?https://raw.githubusercontent.com/ro31337/jquery.ns-autogrow/master/demo/index.html)
+
+### Plans:
 
 * Test and support arabic languages
