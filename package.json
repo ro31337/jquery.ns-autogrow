@@ -2,13 +2,15 @@
   "name": "jquery.ns-autogrow",
   "version": "1.0.0",
   "description": "Automatically adjust textarea height based on user input. Non-sucking version.",
-  "main": "dist/jquery.ns-autogrow.js",
+  "main": "dist/jquery.ns-autogrow.min.js",
   "keywords": [
     "autogrow",
     "textarea",
     "form",
     "autosize",
-    "ui"
+    "ui",
+    "jquery-plugin",
+    "ecosystem:jquery"
   ],
   "author": "Roman Pushkin <roman.pushkin@gmail.com>",
   "homepage": "https://github.com/ro31337/jquery.ns-autogrow",
