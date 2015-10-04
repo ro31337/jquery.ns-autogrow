@@ -1,4 +1,4 @@
-### About
+### :sparkles: Automatically adjust textarea height based on user input. Non-sucking version :sparkles:
 
 The only reason I wrote this jQuery plugin is that other plugins suck. They are wide-spread, but outdated and buggy.
 
