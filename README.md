@@ -1,4 +1,5 @@
-### Automatically adjust textarea height based on user input. (Non-sucking version)
+### Automatically adjust textarea height based on user input.
+#### (Non-sucking version)
 
 
 
