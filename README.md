@@ -1,17 +1,44 @@
-### :sparkles: Automatically adjust textarea height based on user input. Non-sucking version :sparkles:
+### Automatically adjust textarea height based on user input. (Non-sucking version)
+
+
 
 The only reason I wrote this jQuery plugin is that other plugins suck. They are wide-spread, but outdated and buggy.
 
-Advantages of jquery-ns-textarea-autogrow:
+Advantages of jquery.ns-autogrow:
 
 * Grows vertically, horizontally or both
 * Correctly handles 2 or more spaces
-* Copies css and font styles to shadow div
+* Copies more css and font styles to shadow div
 * Correctly handles long words on one line
 * Doesn't flick on Enter
 * Doesn't add more than one handler to textarea
-* Handles scrollbar if any
-* Supports tags, quotes, ampersands
+* Handles textarea scrollbar if any
+* Improved support of special characters
+
+### Options
+
+You can provide multiple options to autogrow like:
+
+```
+  $('.example2 textarea').autogrow({vertical: true, horizontal: false});
+```
+
+List of options:
+
+Option | Description
+-------|------------
+vertical | (true/false) - Enable/Disable vertical autogrow (true by default)
+horizontal | (true/false) - Enable/Disable horizontal autogrow (true by default)
+postGrowCallback | Post grow callback. Executes after dimensions of textarea have been adjusted.
+
+There are few more options reserved for debugging purposes. All debugging options start with `debug` prefix:
+
+Option | Description
+-------|------------
+debugx | X position of shadow element (-10000 by default)
+debugy | Y position of shadow element (-10000 by default)
+debugcolor | Color of shadow element (yellow by default)
+
 
 ### Demo
 
@@ -20,6 +47,10 @@ Advantages of jquery-ns-textarea-autogrow:
 ### Plans:
 
 * Test and support arabic languages
+
+### :heart: Like it? :heart:
+
+:star: Star it! :star:
 
 ### The MIT License (MIT)
 

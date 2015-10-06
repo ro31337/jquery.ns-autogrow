@@ -7,6 +7,7 @@
     options.debugx     ?= -10000
     options.debugy     ?= -10000
     options.debugcolor ?= 'yellow'
+    options.postGrowCallback ?= ->
     options.verticalScrollbarWidth ?= getVerticalScrollbarWidth()
 
     if options.horizontal is false and options.vertical is false
@@ -87,6 +88,8 @@
           # outerWidth is width with padding
           width = Math.max $shadow.outerWidth(), minWidth
           $e.width width
+
+          options.postGrowCallback $e
 
       $e.change  update
         .keyup   update
