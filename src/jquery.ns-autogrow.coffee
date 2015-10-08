@@ -7,6 +7,7 @@
     options.debugx     ?= -10000
     options.debugy     ?= -10000
     options.debugcolor ?= 'yellow'
+    options.flickering ?= true
     options.postGrowCallback ?= ->
     options.verticalScrollbarWidth ?= getVerticalScrollbarWidth()
 
@@ -16,7 +17,7 @@
     @.filter('textarea').each ->
 
       $e = $(@)
-      
+
       return if $e.data 'autogrow-enabled'
       $e.data 'autogrow-enabled'
 
@@ -69,7 +70,11 @@
           )
 
         if /(\n|\r)/.test @.value
-          val += '<br /><br />'
+          val += '<br />'
+
+          # no flickering, but one extra line will be added
+          if options.flickering is false
+            val += '<br />'
 
         $shadow.html val
 

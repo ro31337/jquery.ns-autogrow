@@ -11,7 +11,7 @@ Advantages of jquery.ns-autogrow:
 * Correctly handles 2 or more spaces
 * Copies more css and font styles to shadow div
 * Correctly handles long words on one line
-* Doesn't flick on Enter
+* Flickering can be disabled on Enter
 * Doesn't add more than one handler to textarea
 * Handles textarea scrollbar if any
 * Improved support of special characters
@@ -31,6 +31,7 @@ Option | Description
 vertical | (true/false) - Enable/Disable vertical autogrow (true by default)
 horizontal | (true/false) - Enable/Disable horizontal autogrow (true by default)
 postGrowCallback | Post grow callback. Executes after dimensions of textarea have been adjusted.
+flickering | (true/false) - Enable/Disable flickering. If flickering is disabled, extra line will be added to textarea (true by default)
 
 There are few more options reserved for debugging purposes. All debugging options start with `debug` prefix:
 

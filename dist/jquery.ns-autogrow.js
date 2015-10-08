@@ -1,5 +1,5 @@
 /*!
-  Non-Sucking Autogrow 1.0.2
+  Non-Sucking Autogrow 1.1.0
   license: MIT
   author: Roman Pushkin
   https://github.com/ro31337/jquery.ns-autogrow
@@ -26,6 +26,9 @@
       }
       if (options.debugcolor == null) {
         options.debugcolor = 'yellow';
+      }
+      if (options.flickering == null) {
+        options.flickering = true;
       }
       if (options.postGrowCallback == null) {
         options.postGrowCallback = function() {};
@@ -80,7 +83,10 @@
               return Array(space.length - 1).join('&nbsp;') + ' ';
             });
             if (/(\n|\r)/.test(_this.value)) {
-              val += '<br /><br />';
+              val += '<br />';
+              if (options.flickering === false) {
+                val += '<br />';
+              }
             }
             $shadow.html(val);
             if (options.vertical === true) {
