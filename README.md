@@ -31,7 +31,7 @@ Option | Description
 vertical | (true/false) - Enable/Disable vertical autogrow (true by default)
 horizontal | (true/false) - Enable/Disable horizontal autogrow (true by default)
 postGrowCallback | Post grow callback. Executes after dimensions of textarea have been adjusted.
-flickering | (true/false) - Enable/Disable flickering. If flickering is disabled, extra line will be added to textarea (true by default)
+flickering | (true/false) - Enable/Disable flickering. If flickering is disabled, extra line will be added to textarea. Flickering is _enabled_ by default.
 
 There are few more options reserved for debugging purposes. All debugging options start with `debug` prefix:
 
