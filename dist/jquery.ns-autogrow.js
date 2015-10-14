@@ -1,5 +1,5 @@
 /*!
-  Non-Sucking Autogrow 1.1.0
+  Non-Sucking Autogrow 1.1.1
   license: MIT
   author: Roman Pushkin
   https://github.com/ro31337/jquery.ns-autogrow
@@ -100,8 +100,8 @@
               }
               width = Math.max($shadow.outerWidth(), minWidth);
               $e.width(width);
-              return options.postGrowCallback($e);
             }
+            return options.postGrowCallback($e);
           };
         })(this);
         $e.change(update).keyup(update).keydown(update);

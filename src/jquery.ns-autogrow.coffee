@@ -94,7 +94,7 @@
           width = Math.max $shadow.outerWidth(), minWidth
           $e.width width
 
-          options.postGrowCallback $e
+        options.postGrowCallback $e
 
       $e.change  update
         .keyup   update
