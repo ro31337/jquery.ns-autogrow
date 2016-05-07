@@ -1,5 +1,5 @@
 /*!
-  Non-Sucking Autogrow 1.1.1
+  Non-Sucking Autogrow 1.1.2
   license: MIT
   author: Roman Pushkin
   https://github.com/ro31337/jquery.ns-autogrow
@@ -42,10 +42,10 @@
       return this.filter('textarea').each(function() {
         var $e, $shadow, fontSize, heightPadding, minHeight, minWidth, update;
         $e = $(this);
-        if ($e.data('autogrow-enabled')) {
+        if ($e.data('autogrow-enabled' === 'true')) {
           return;
         }
-        $e.data('autogrow-enabled');
+        $e.data('autogrow-enabled', true);
         minHeight = $e.height();
         minWidth = $e.width();
         heightPadding = $e.css('lineHeight') * 1 || 0;
