@@ -18,7 +18,7 @@
 
       $e = $(@)
 
-      return if $e.data 'autogrow-enabled' == 'true'
+      return if $e.data 'autogrow-enabled' == true
       $e.data 'autogrow-enabled', true
 
       minHeight     = $e.height()
