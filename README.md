@@ -16,6 +16,17 @@ Advantages of jquery.ns-autogrow:
 * Handles textarea scrollbar if any
 * Improved support of special characters
 
+## Download
+Run one of these commands in your bash according to your needs.
+
+`git clone https://github.com/ro31337/jquery.ns-autogrow.git`
+
+`bower install jquery.ns-autogrow`
+
+`npm install jquery.ns-autogrow`
+
+Or download the latest version from the [releases](https://github.com/ro31337/jquery.ns-autogrow/releases) page.
+
 ### Options
 
 You can provide multiple options to autogrow like:
