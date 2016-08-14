@@ -1,5 +1,5 @@
 /*!
-  Non-Sucking Autogrow 1.1.1
+  Non-Sucking Autogrow 1.1.5
   license: MIT
   author: Roman Pushkin
   https://github.com/ro31337/jquery.ns-autogrow
