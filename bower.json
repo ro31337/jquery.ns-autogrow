@@ -1,7 +1,7 @@
 {
   "name": "jquery.ns-autogrow",
   "description": "Automatically adjust textarea height based on user input. Non-sucking version.",
-  "main": "dist/jquery.ns-autogrow.min.js",
+  "main": "dist/jquery.ns-autogrow.js",
   "keywords": [
     "autogrow",
     "textarea",
