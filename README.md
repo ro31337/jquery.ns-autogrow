@@ -1,5 +1,5 @@
 ### Automatically adjust textarea width/height based on user input.
-#### Non-sucking version, still works great and used by a lot of people with no issues!
+#### Non-sucking version, still works great and used by a lot of people with no issues! Yes, it is old, but it works!
 
 
 The only reason I wrote this jQuery plugin is that other plugins suck. They are wide-spread, but outdated and buggy.
