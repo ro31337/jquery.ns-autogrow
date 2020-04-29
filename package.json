@@ -30,7 +30,7 @@
     "url": "https://github.com/ro31337/jquery.ns-autogrow/issues"
   },
   "dependencies": {
-    "jquery": "^1.12.4"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "coffee-script": "^1.10.0",
